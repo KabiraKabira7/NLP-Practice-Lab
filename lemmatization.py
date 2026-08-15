@@ -18,7 +18,7 @@ import nltk
 
 nltk.download("wordnet")
 
-from nltk.stem import WordNetLemmatizer
+
 
 lemmatizer = WordNetLemmatizer()
 
@@ -35,7 +35,7 @@ for word in words:
     print(word, "→", lemmatizer.lemmatize(word))
     
 
-from nltk.stem import WordNetLemmatizer
+
 
 lemmatizer = WordNetLemmatizer()
 
