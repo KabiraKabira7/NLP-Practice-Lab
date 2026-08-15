@@ -21,3 +21,13 @@ print(tokens)
 
 print("\nAfter stop-word removal:")
 print(filtered_tokens)
+
+
+from nltk.stem import PorterStemmer
+
+stemmer = PorterStemmer()
+
+words = ["playing", "played", "plays", "play"]
+
+for word in words:
+    print(word, "→", stemmer.stem(word))
