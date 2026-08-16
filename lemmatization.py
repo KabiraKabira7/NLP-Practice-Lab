@@ -42,4 +42,7 @@ lemmatizer = WordNetLemmatizer()
 print(lemmatizer.lemmatize("playing", pos="v"))
 print(lemmatizer.lemmatize("played", pos="v"))
 print(lemmatizer.lemmatize("running", pos="v"))    
-    
+
+
+
+
